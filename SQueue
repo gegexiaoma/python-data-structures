@@ -15,8 +15,6 @@ class SQueue:
     def peek(self):
         if self._num == []:
             raise QueueUnderflow
-        
-        
         return self._elems[self._head]
         
     def enqueue(self, e):
